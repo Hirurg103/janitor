@@ -1,0 +1,9 @@
+.sign-up
+  = form_for @user do |form|
+    = render 'users/form', f: form
+
+    .submit
+      = form.submit
+
+    .other-links
+      = link_to t('.sign_in'), sign_in_path

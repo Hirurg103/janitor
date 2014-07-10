@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'clearance'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'compass-rails'
 gem 'jbuilder', '~> 1.2'
@@ -19,6 +20,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
 end
 
