@@ -1,0 +1,15 @@
+.fields-container
+  = form_for :session, url: session_path do |form|
+    .field.width4.required
+      = form.label :email
+      = form.text_field :email, type: 'email'
+
+    .field.width4.required
+      = form.label :password
+      = form.password_field :password
+
+    .field.width4
+      = form.submit class: 'btn green submit'
+
+    .other-links
+      = link_to t('.forgot_password'), new_password_path
