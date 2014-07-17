@@ -22,6 +22,7 @@ group :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'timecop'
 end
 
 group :doc do
