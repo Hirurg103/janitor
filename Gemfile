@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 
 group :test do
   gem 'capybara'
+  gem 'capybara-screenshot'
   gem 'cucumber'
   gem 'cucumber-rails'
   gem 'database_cleaner'
