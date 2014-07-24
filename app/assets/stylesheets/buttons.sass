@@ -8,9 +8,11 @@
   font-weight: bold
   color: white
   font-family: Helvetica, sans-serif
+  font-size: 16px
   text-decoration: none
   @include box-shadow(rgba(255, 255, 255, 0.25) 0 1px 1px inset, rgba(255, 255, 255, 0.3) 0 1px 3px)
-
+  &:visited
+    color: white
   &.blue
     background-color: #077eca
     border-color: #1a6695
@@ -20,3 +22,5 @@
     background-color: #008000
     border-color: #64961e
     @include background-image(linear-gradient(top, #97e12f 1.5%, #609b0e 100%))
+  &:hover
+    text-decoration: none
