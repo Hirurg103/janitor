@@ -17,7 +17,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'cucumber'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
