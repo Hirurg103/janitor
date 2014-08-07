@@ -22,6 +22,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'rspec-expectations'
   gem 'selenium-webdriver'
   gem 'timecop'
 end
