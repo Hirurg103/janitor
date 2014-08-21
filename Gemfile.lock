@@ -139,6 +139,8 @@ GEM
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
+    rspec-collection_matchers (1.0.0)
+      rspec-expectations (>= 2.99.0.beta1)
     rspec-core (3.0.2)
       rspec-support (~> 3.0.0)
     rspec-expectations (3.0.2)
@@ -223,6 +225,7 @@ DEPENDENCIES
   jquery-rails
   pry
   rails (= 4.0.3)
+  rspec-collection_matchers
   rspec-expectations
   rspec-rails
   sass-rails (~> 4.0.0)
