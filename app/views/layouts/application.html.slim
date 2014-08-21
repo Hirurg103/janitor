@@ -9,4 +9,7 @@ html
   body
     = render 'layouts/header'
     .wrapper
+      - if signed_in?
+        .left-pane
+          = render 'shared/site_links'
       == yield

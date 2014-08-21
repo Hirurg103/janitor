@@ -1,5 +1,7 @@
 Janitor::Application.routes.draw do
+
   root 'dashboard#index'
+  resources :turns, only: :index
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
