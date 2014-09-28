@@ -10,4 +10,4 @@ RUN gem install bundler puma --no-ri --no-rdoc
 
 RUN bundle install
 
-CMD [ "puma", "-C /usr/local/src/janitor/config.ru", "-p 80" ]
+CMD puma -C /usr/local/src/janitor/config.ru -p 80
