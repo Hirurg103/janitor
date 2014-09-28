@@ -235,6 +235,7 @@ DEPENDENCIES
   jquery-rails
   pg
   pry
+  rack (~> 1.5)
   rails (= 4.0.3)
   rspec-collection_matchers
   rspec-expectations

@@ -14,6 +14,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'shelly-dependencies'
 gem 'pg'
+gem 'rack', '~> 1.5'
 
 group :test do
   gem 'capybara'
