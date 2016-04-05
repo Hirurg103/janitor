@@ -14,7 +14,7 @@ class Duty < ActiveRecord::Base
 
   def appointed_to_friday
     unless appointed_at.friday?
-      errors.add :appointed_at, 'Duty have to be appointed to friday'
+      errors.add :appointed_at, 'Duty has to be appointed to Friday'
     end
   end
 end
